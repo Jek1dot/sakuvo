@@ -1,0 +1,17 @@
+# Android signing keys
+*.keystore
+*.jks
+*.key
+local.properties
+
+# Build outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aab
+
+# Editor and OS
+.idea/
+.DS_Store
+Thumbs.db
