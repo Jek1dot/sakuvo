@@ -16,7 +16,7 @@ The original beta source archive contains:
 - `res/` — Android resources and icons
 - `AndroidManifest.xml` — Android app manifest
 
-The provided source archive does **not** include a complete Gradle/Android Studio project. A reproducible build configuration still needs to be added before contributors can build the APK directly.
+Basic Gradle project configuration is included (`settings.gradle`, `build.gradle`, and `app/build.gradle`). A Gradle wrapper is not included yet. Build has **not been verified**; open with Android Studio and install a compatible Gradle/JDK toolchain before building.
 
 ## Contributing
 Feel free to fork the repository and propose improvements using pull requests. Please do not commit real financial data, credentials, signing keys or keystores.
